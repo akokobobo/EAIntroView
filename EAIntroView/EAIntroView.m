@@ -560,7 +560,7 @@
         [self makePanelVisibleAtIndex:self.visiblePageIndex];
     }
 
-    if ([self.delegate respondsToSelector:@selector(introDidScroll:)] {
+    if ([self.delegate respondsToSelector:@selector(introDidScroll:)]) {
         [self.delegate introDidScroll:self];
     }
 }
